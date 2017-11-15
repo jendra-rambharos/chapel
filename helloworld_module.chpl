@@ -26,5 +26,4 @@ module Hello_dist {
 	forall i in MessageSpace do
 		writeln("Hello from iter#", i, " running on node ", here.id);
 	
-
 }
